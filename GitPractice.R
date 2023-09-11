@@ -1,3 +1,4 @@
+ plot(mtcars$mpg ~ mtcars$wt)
 #This is a sample R Script for exercise in Git
 
 #Load documentation from R's pre-loaded dataset
@@ -12,5 +13,6 @@ mean(mtcars$mpg)
 
 #Create a histogram for mpg variable in mtcars
 hist(mtcars$mpg)
+plot(mtcars$mpg ~ mtcars$wt)
 
 #Add some more code below as instructed, then commit to your repository
